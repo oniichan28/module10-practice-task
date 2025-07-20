@@ -1,3 +1,18 @@
+/* Font Section */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /* General Styles */
 * {
     margin: 0;
@@ -77,7 +92,7 @@
     position: absolute;
     z-index: 1;
     width: 450px;
-    height: ;
+    height: auto ;
 }
 .camera {
     position: relative;
@@ -94,4 +109,47 @@
     width: auto;
     margin-top: 20px;
     object-fit: contain;
+}
+/* Popular Section Styles */
+.product-section {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.card-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+margin: 20px 10px;
+padding-left: 0 20px;
+justify-items: center;
+}
+.card-container ul {
+    list-style: none;
+    font-size: 1rem;
+    color: #555;
+}
+.product-cards {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    margin: 20px 10px;
+
+}
+.product-head {
+    font-size: 1.5rem;
+    font-weight: medium;
+}
+.price {
+    font-size: 1.5rem;
+    font-weight: regular;
+
 }
